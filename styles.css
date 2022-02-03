@@ -25,7 +25,7 @@ footer {
     color: white;
     display: block;
     text-align: center;
-    height: 60%;
+    height: 100%;
     width: 100%;
 }
 
@@ -71,7 +71,7 @@ footer {
     color: white;
     text-decoration: none;
   }
-  
+
   .navbar {
     min-height: 70px;
     display: flex;
@@ -85,6 +85,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    z-index: 1;
   }
   
   .nav-branding {
@@ -96,7 +97,7 @@ footer {
   }
   
   .nav-link:hover {
-    color: dodgerblue;
+    color: red;
   }
   
   .hamburger {
